@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="arkdinos.DinoTypesController">
+   <children>
+      <VBox layoutX="220.0" layoutY="46.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="118.0" prefWidth="600.0">
+               <children>
+                  <Label text="Pick Your Dino Type">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="252.0" prefWidth="318.0" spacing="70.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#changeToLandButtonPushed" text="Land Dino" />
+                  <Button mnemonicParsing="false" onAction="#changeToWaterButtonPushed" text="Water Dino" />
+                  <Button mnemonicParsing="false" onAction="#changeToFlyingButtonPushed" text="Flying Dino" />
+               </children>
+               <padding>
+                  <Insets bottom="30.0" left="120.0" right="30.0" top="40.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,2 @@
+Your Dino is called Sean, from the Bronto. It is 131.3888888888889 feet long and is seen flying, it can walk carrying 30 and fly for 30.0 carrying 10.0.
+Your Dino is called Bruno, from the Trike. It is 131.3888888888889 feet long and is seen flying, it can walk carrying 45 and fly for 35.0 carrying 20.0.
